@@ -13,6 +13,14 @@ const Middle = () => {
   const [reorganize,setsize]  = useState(false);
 
   useEffect(()=>{
+    if(window.innerWidth < width)
+    {
+     setsize(true);
+    } 
+    else if(reorganize) setsize(false);
+  },[])
+
+  useEffect(()=>{
       window.onresize =()=>{
           if(window.innerWidth < width)
           {

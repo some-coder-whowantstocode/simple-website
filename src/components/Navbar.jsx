@@ -38,6 +38,20 @@ const Navbar = () => {
        
     },[reorganize])
 
+    useEffect(()=>{
+        const onloadhandle =()=>{
+            if(window.innerWidth < width)
+            {
+                setcheck(true); 
+                settoggle(true);
+                
+            } 
+            else if(reorganize) setcheck(false)
+        }
+        window.addEventListener('load',onloadhandle);
+        window.removeEventListener('load',onloadhandle);
+    },[])
+
   return (
     <div
     id='Navbar'

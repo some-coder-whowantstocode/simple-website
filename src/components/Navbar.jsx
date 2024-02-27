@@ -39,7 +39,6 @@ const Navbar = () => {
     },[reorganize])
 
     useEffect(()=>{
-        const onloadhandle =()=>{
             if(window.innerWidth < width)
             {
                 setcheck(true); 
@@ -47,12 +46,8 @@ const Navbar = () => {
                 
             } 
             else if(reorganize) setcheck(false)
-        }
-        window.addEventListener('load',onloadhandle);
-        return()=>{
-            
-            window.removeEventListener('load',onloadhandle);
-        }
+        
+       
     },[])
 
   return (

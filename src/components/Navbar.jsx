@@ -49,7 +49,10 @@ const Navbar = () => {
             else if(reorganize) setcheck(false)
         }
         window.addEventListener('load',onloadhandle);
-        window.removeEventListener('load',onloadhandle);
+        return()=>{
+            
+            window.removeEventListener('load',onloadhandle);
+        }
     },[])
 
   return (

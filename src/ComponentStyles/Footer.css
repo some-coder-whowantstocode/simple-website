@@ -1,0 +1,36 @@
+.container {
+    height: 452px;
+    background-color: #212731;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+
+}
+.row span{
+    margin: 8px 0;
+    color: #B6BDC4;
+}
+.categories {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contact {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.links {
+    font-size: 13px;
+}
+
+.united-states {
+    font-size: 13px;
+}

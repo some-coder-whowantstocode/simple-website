@@ -1,0 +1,80 @@
+.containerBox {
+    height: 425px;
+    width: 333px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0px 20px;
+
+  }
+  
+  .contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .discountBox, .priceBox, .descriptionBox{
+    width: 90%;
+    
+  }
+  .priceBox .offerprice{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #5C6874;
+    padding: 0 5px;
+  }
+
+  .priceBox .actualprice{
+    font-size: 14px;
+    font-weight: 14px;
+    line-height: 20px;
+    color:#9FA9B3 ;
+    padding: 0 5px;
+  }
+
+  .priceBox .discount{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #EF4C5D;
+  }
+  
+  .discountBox span {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+    color: #074786;
+    background-color: #ecf2fc;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+
+  .webbuilderBox{
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #626E79;
+  }
+  
+  .descriptionBox {
+    font-size: 16px;
+    color: #626E79;
+  }
+  
+  .dealButtonBox {
+    background-color: #1B88F4;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 272px;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+  

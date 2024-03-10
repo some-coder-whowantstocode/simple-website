@@ -45,7 +45,7 @@ npm run dev
 # or
 yarn dev
 
-Open http://localhost:5000 to view it in the browser. The page will automatically reload if you make changes to the code.
+Open http://localhost:5173 to view it in the browser. The page will automatically reload if you make changes to the code.
 
 Building for Production
 To create an optimized version of the app:
